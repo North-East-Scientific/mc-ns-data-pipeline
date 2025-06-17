@@ -1,0 +1,20 @@
+[project]
+name = "mc-ns-data-sync"
+version = "0.1.0"
+description = "Extract and load MasterControl and NetSuite data into PostgreSQL"
+requires-python = ">=3.8"
+
+dependencies = [
+    "pandas==2.3.0",
+    "numpy==2.3.0",
+    "requests==2.32.4",
+    "python-dotenv==1.1.0",
+    "psycopg2==2.9.10",
+    "SQLAlchemy==2.0.41",
+    "JayDeBeApi==1.2.3",
+    "jpype1==1.5.2"
+]
+
+[build-system]
+requires = ["uv"]
+build-backend = "uv"
