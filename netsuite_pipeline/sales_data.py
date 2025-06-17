@@ -9,6 +9,7 @@ load_dotenv()
 
 # JDBC / NetSuite Credentials
 ACCOUNT_ID = os.getenv("NS_ACCOUNT_ID")
+PORT = os.getenv("NS_ACCOUNT_PORT")
 ROLE_ID = os.getenv("NS_ROLE_ID")
 NS_USERNAME = os.getenv("NS_USERNAME")
 NS_PASSWORD = os.getenv("NS_PASSWORD")
